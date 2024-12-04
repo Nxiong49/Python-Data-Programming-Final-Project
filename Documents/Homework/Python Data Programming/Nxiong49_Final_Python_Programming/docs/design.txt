@@ -1,0 +1,25 @@
+Book Library Management System Design
+
+Purpose Statement:
+The purpose of this program is to create a console-based book library management system using Python. The program will allow users to perform various operations such as adding books to the library, listing all available books, checking out and checking in books, displaying overdue books.
+
+Nouns & Verbs:
+Nouns: Book, Library, User, Menu, Database, Input, Output
+Verbs: Add, List, Check Out, Check In, Display, Remove
+
+Defining Diagram:
+User Interface (ui.py)
+Database (db.py)
+Business Logic (business.py)
+
+Pseudocode:
+1. Define the Book class with attributes and methods to represent a book.
+2. Implement database functions to handle CRUD operations for books.
+3. Implement business logic functions to handle various operations like checking out, checking in, etc.
+4. Implement the user interface to display menus and interact with users.
+5. Call appropriate functions based on user input to perform desired operations.
+
+Test Plans:
+- Test each function/method individually to ensure it works as expected.
+- Test the integration of different components (UI, database, business logic) to ensure seamless interaction.
+- Test edge cases and error handling scenarios to ensure robustness.
